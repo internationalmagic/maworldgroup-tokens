@@ -873,7 +873,7 @@
       },
       "radius": {
         "base": {
-          "$value": "0.125rem",
+          "$value": "0.25rem",
           "$type": "dimension"
         }
       }

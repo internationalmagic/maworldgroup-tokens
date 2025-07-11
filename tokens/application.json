@@ -1985,6 +1985,14 @@
             "2xl": {
               "$value": "{config.dimension.radius.base} * 3",
               "$type": "dimension"
+            },
+            "3xl": {
+              "$value": "{config.dimension.radius.base} * 3.5",
+              "$type": "dimension"
+            },
+            "4xl": {
+              "$value": "{config.dimension.radius.base} * 4",
+              "$type": "dimension"
             }
           }
         },

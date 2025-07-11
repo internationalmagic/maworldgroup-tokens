@@ -1616,7 +1616,7 @@
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "1rem",
+            "$value": "0.9375rem",
             "$type": "fontSizes"
           }
         },

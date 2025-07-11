@@ -1,157 +1,109 @@
 {
   "component": {
     "message": {
-      "typography": {
-        "default": {
-          "value": "{app.typography.control.text.alt}",
-          "type": "typography"
-        },
-        "symbol": {
-          "value": "{app.typography.control.symbol.default}",
-          "type": "typography"
-        }
-      },
       "color": {
-        "default": {
+        "primary": {
           "bg": {
             "default": {
-              "value": "{app.color.surface.elevation.high.bg.default}",
-              "type": "color"
+              "$value": "{app.color.component.primary.bg.translucent.default}",
+              "$type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "{app.color.component.accent.fg.onTranslucent}",
-              "type": "color"
+              "$value": "{app.color.component.primary.fg.solid.default}",
+              "$type": "color"
+            },
+            "muted": {
+              "$value": "{app.color.component.primary.fg.subtle.default}",
+              "$type": "color"
             }
           }
         }
       },
+      "fontFamily": {
+        "default": {
+          "$value": "{app.fontFamily.component.text}",
+          "$type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "label": {
+          "$value": "{app.fontWeight.component.text.strong}",
+          "$type": "fontWeights"
+        },
+        "message": {
+          "$value": "{app.fontWeight.component.text.default}",
+          "$type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "default": {
+          "$value": "{app.lineHeight.default}",
+          "$type": "lineHeights"
+        },
+        "symbol": {
+          "$value": "{app.lineHeight.none}",
+          "$type": "lineHeights"
+        }
+      },
+      "fontSize": {
+        "label": {
+          "$value": "{app.fontSize.component.text.sm}",
+          "$type": "fontSizes"
+        },
+        "message": {
+          "$value": "{app.fontSize.component.text.sm}",
+          "$type": "fontSizes"
+        }
+      },
       "dimension": {
-        "box": {
-          "padding": {
-            "advanced": {
-              "default": {
-                "value": "{app.dimension.control.padding.md} * 0.25",
-                "type": "dimension"
-              },
-              "cta": {
-                "value": "{app.dimension.control.padding.md} * 0.5",
-                "type": "dimension"
-              },
-              "promise": {
-                "value": "{app.dimension.control.padding.md} * 0.5",
-                "type": "dimension"
-              },
-              "symbol": {
-                "value": "{app.dimension.control.padding.md} * 0.5",
-                "type": "dimension"
-              },
-              "media": {
-                "value": "{app.dimension.control.padding.md} * 0.25",
-                "type": "dimension"
-              }
-            },
-            "simple": {
-              "default": {
-                "value": "{app.dimension.control.padding.md} * 0.25",
-                "type": "dimension"
-              },
-              "cta": {
-                "value": "{app.dimension.control.padding.md} * 0.25",
-                "type": "dimension"
-              },
-              "promise": {
-                "value": "{app.dimension.control.padding.md} * 0.75",
-                "type": "dimension"
-              },
-              "symbol": {
-                "value": "{app.dimension.control.padding.md} * 0.75",
-                "type": "dimension"
-              },
-              "media": {
-                "value": "{app.dimension.control.padding.md} * 0",
-                "type": "dimension"
-              }
-            }
+        "padding": {
+          "x": {
+            "$value": "{app.dimension.component.spacing.1}",
+            "$type": "dimension"
           },
-          "gap": {
-            "default": {
-              "value": "0rem",
-              "type": "dimension"
-            }
-          },
-          "radius": {
-            "advanced": {
-              "default": {
-                "value": "{app.dimension.control.radius.sm} + {component.message.dimension.box.padding.advanced.default}",
-                "type": "dimension"
-              },
-              "media": {
-                "value": "{app.dimension.control.radius.md} * 0.75",
-                "type": "dimension"
-              }
-            },
-            "simple": {
-              "default": {
-                "value": "{app.dimension.control.radius.sm} + {component.message.dimension.box.padding.advanced.default}",
-                "type": "dimension"
-              },
-              "media": {
-                "value": "{app.dimension.control.radius.md}",
-                "type": "dimension"
-              }
-            }
-          },
-          "blur": {
-            "default": {
-              "value": "6rem",
-              "type": "dimension"
-            }
+          "y": {
+            "$value": "{app.dimension.component.spacing.3_5}",
+            "$type": "dimension"
           }
         },
-        "text": {
-          "padding": {
-            "default": {
-              "value": "{app.dimension.control.padding.sm}",
-              "type": "dimension"
-            },
-            "y": {
-              "value": "{app.dimension.control.padding.md} * 0.25",
-              "type": "dimension"
-            }
+        "gap": {
+          "container": {
+            "$value": "{app.dimension.component.spacing.4}",
+            "$type": "dimension"
+          },
+          "message": {
+            "$value": "{app.dimension.component.spacing.1_5}",
+            "$type": "dimension"
+          },
+          "body": {
+            "$value": "{app.dimension.component.spacing.1}",
+            "$type": "dimension"
+          },
+          "badge": {
+            "$value": "{app.dimension.component.spacing.0_5}",
+            "$type": "dimension"
+          }
+        },
+        "radius": {
+          "default": {
+            "$value": "{app.dimension.component.radius.default.lg}",
+            "$type": "dimension"
+          }
+        },
+        "position": {
+          "close": {
+            "$value": "{app.dimension.component.spacing.2}",
+            "$type": "dimension"
           }
         }
       },
       "boxShadow": {
         "default": {
-          "value": "{app.boxShadow.component.high}",
-          "type": "boxShadow"
-        },
-        "inline": {
-          "value": "0",
-          "type": "boxShadow"
+          "$value": "{app.boxShadow.component.high}",
+          "$type": "boxShadow"
         }
-      },
-      "fontSize": {
-        "default": {
-          "value": "{app.fontSize.control.text.sm}",
-          "type": "fontSizes"
-        },
-        "message": {
-          "value": "{app.fontSize.control.text.xs}",
-          "type": "fontSizes"
-        },
-        "symbol": {
-          "value": "{app.fontSize.control.text.xl}",
-          "type": "fontSizes"
-        }
-      }
-    },
-    "fontWeight": {
-      "callout": {
-        "value": "{config.fontWeight.semibold}",
-        "type": "fontWeights"
       }
     }
   }

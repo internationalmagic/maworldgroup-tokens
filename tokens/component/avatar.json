@@ -22,6 +22,26 @@
             }
           }
         },
+        "translucent": {
+          "bg": {
+            "default": {
+              "$value": "{app.color.component.primary.bg.translucent.default}",
+              "$type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "$value": "transparent",
+              "$type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "$value": "{app.color.component.primary.fg.onTranslucent.default}",
+              "$type": "color"
+            }
+          }
+        },
         "outline": {
           "bg": {
             "default": {
@@ -161,7 +181,11 @@
           },
           "inline": {
             "xs": {
+<<<<<<< HEAD
               "$value": "{app.dimension.component.radius.compact.lg}",
+=======
+              "$value": "{app.dimension.component.radius.default.2xs}",
+>>>>>>> aaeb98bedc5e47dec444e469abc0dde4c9cfc15f
               "$type": "dimension"
             },
             "sm": {
@@ -169,6 +193,7 @@
               "$type": "dimension"
             },
             "md": {
+<<<<<<< HEAD
               "$value": "{app.dimension.component.radius.default.md}",
               "$type": "dimension"
             },
@@ -178,6 +203,17 @@
             },
             "xl": {
               "$value": "{app.dimension.component.radius.default.xl}",
+=======
+              "$value": "{app.dimension.component.radius.default.sm}",
+              "$type": "dimension"
+            },
+            "lg": {
+              "$value": "{app.dimension.component.radius.default.md}",
+              "$type": "dimension"
+            },
+            "xl": {
+              "$value": "{app.dimension.component.radius.default.lg}",
+>>>>>>> aaeb98bedc5e47dec444e469abc0dde4c9cfc15f
               "$type": "dimension"
             }
           }

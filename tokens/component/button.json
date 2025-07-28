@@ -1035,28 +1035,55 @@
           }
         },
         "symbol": {
-          "sm": {
+          "xs": {
             "default": {
+<<<<<<< HEAD
               "$value": "{component.button.fontSize.symbol.sm}",
               "$type": "dimension"
             },
             "icon": {
               "$value": "{component.button.dimension.symbol.sm.default} + {app.dimension.component.spacing.1}",
+=======
+              "$value": "{app.dimension.component.spacing.3_5}",
+              "$type": "dimension"
+            },
+            "icon": {
+              "$value": "{app.dimension.component.spacing.4_5}",
+              "$type": "dimension"
+            }
+          },
+          "sm": {
+            "default": {
+              "$value": "{app.dimension.component.spacing.4}",
+              "$type": "dimension"
+            },
+            "icon": {
+              "$value": "{app.dimension.component.spacing.5}",
+>>>>>>> aaeb98bedc5e47dec444e469abc0dde4c9cfc15f
               "$type": "dimension"
             }
           },
           "md": {
             "default": {
+<<<<<<< HEAD
               "$value": "{component.button.fontSize.symbol.md}",
               "$type": "dimension"
             },
             "icon": {
               "$value": "{component.button.dimension.symbol.md.default} + {app.dimension.component.spacing.1}",
+=======
+              "$value": "{app.dimension.component.spacing.4_5}",
+              "$type": "dimension"
+            },
+            "icon": {
+              "$value": "{app.dimension.component.spacing.5_5}",
+>>>>>>> aaeb98bedc5e47dec444e469abc0dde4c9cfc15f
               "$type": "dimension"
             }
           },
           "lg": {
             "default": {
+<<<<<<< HEAD
               "$value": "{component.button.fontSize.symbol.lg}",
               "$type": "dimension"
             },
@@ -1072,6 +1099,13 @@
             },
             "icon": {
               "$value": "{component.button.dimension.symbol.xs.default} + {app.dimension.component.spacing.1}",
+=======
+              "$value": "{app.dimension.component.spacing.5}",
+              "$type": "dimension"
+            },
+            "icon": {
+              "$value": "{app.dimension.component.spacing.6}",
+>>>>>>> aaeb98bedc5e47dec444e469abc0dde4c9cfc15f
               "$type": "dimension"
             }
           }

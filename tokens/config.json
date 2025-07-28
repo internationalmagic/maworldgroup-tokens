@@ -219,11 +219,19 @@
         "neutral": {
           "solid": {
             "1": {
+<<<<<<< HEAD
               "$value": "oklch(0.985 0 0)",
               "$type": "color"
             },
             "2": {
               "$value": "oklch(0.9325 0 0)",
+=======
+              "$value": "oklch(0.96 0 0)",
+              "$type": "color"
+            },
+            "2": {
+              "$value": "oklch(0.92 0 0)",
+>>>>>>> aaeb98bedc5e47dec444e469abc0dde4c9cfc15f
               "$type": "color"
             },
             "3": {
@@ -321,11 +329,19 @@
         "stone": {
           "solid": {
             "1": {
+<<<<<<< HEAD
               "$value": "oklch(0.985 0.003 106)",
               "$type": "color"
             },
             "2": {
               "$value": "oklch(0.9325 0.005 106)",
+=======
+              "$value": "oklch(0.96 0.003 106)",
+              "$type": "color"
+            },
+            "2": {
+              "$value": "oklch(0.92 0.005 106)",
+>>>>>>> aaeb98bedc5e47dec444e469abc0dde4c9cfc15f
               "$type": "color"
             },
             "3": {

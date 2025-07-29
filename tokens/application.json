@@ -1308,7 +1308,7 @@
             "$type": "fontWeights"
           },
           "strong": {
-            "$value": "{config.fontWeight.medium}",
+            "$value": "{config.fontWeight.semibold}",
             "$type": "fontWeights"
           }
         },
@@ -1318,7 +1318,7 @@
             "$type": "fontWeights"
           },
           "strong": {
-            "$value": "{config.fontWeight.medium}",
+            "$value": "{config.fontWeight.semibold}",
             "$type": "fontWeights"
           }
         },
@@ -1328,7 +1328,7 @@
             "$type": "fontWeights"
           },
           "strong": {
-            "$value": "{config.fontWeight.medium}",
+            "$value": "{config.fontWeight.semibold}",
             "$type": "fontWeights"
           }
         },

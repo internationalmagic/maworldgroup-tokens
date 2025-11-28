@@ -1568,19 +1568,19 @@
       "surface": {
         "display": {
           "sm": {
-            "$value": "1.5rem",
+            "$value": "2rem",
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "2.25rem",
+            "$value": "2.75rem",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "3rem",
+            "$value": "3.5rem",
             "$type": "fontSizes"
           },
           "xl": {
-            "$value": "3.75rem",
+            "$value": "4.25rem",
             "$type": "fontSizes"
           }
         },
